@@ -1,7 +1,7 @@
 #todo
 {
-	width: 70vw;
-	height: 40vw;
+	width: 1500px;
+	height: 800px;
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
@@ -10,28 +10,28 @@
 #title
 {
 	text-align: center;
-	font-size: 2.5vw;
+	font-size: 45px;
 	font-weight: bold;
 }
 #main
 {
 	background-color: #c0c0c0;
-	width: 50vw;
-	height: 30vw;
+	width: 600px;
+	height: 200px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 #nombre
 {
-	margin-top: 1vw;
-	font-size: 1.5vw;
+	margin-top: 10px;
+	font-size: 30px;
 }
 #boton
 {
-	font-size: 1.5vw;
+	font-size: 30px;
 }
 #respuesta
 {
-	font-size: 1.5vw;
+	font-size: 30px;
 }
