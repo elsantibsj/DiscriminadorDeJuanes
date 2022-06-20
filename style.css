@@ -1,28 +1,37 @@
-h1
+#todo
 {
+	width: 70vw;
+	height: 40vw;
+	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 60px;
+}
+
+#title
+{
+	text-align: center;
+	font-size: 2.5vw;
+	font-weight: bold;
 }
 #main
 {
 	background-color: #c0c0c0;
-	width: 1000px;
-	height: 200px;
+	width: 50vw;
+	height: 30vw;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 #nombre
 {
-	margin-top: 10px;
-	font-size: 30px;
+	margin-top: 1vw;
+	font-size: 1.5vw;
 }
 #boton
 {
-	font-size: 30px;
+	font-size: 1.5vw;
 }
 #respuesta
 {
-	font-size: 30px;
+	font-size: 1.5vw;
 }
