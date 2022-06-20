@@ -1,0 +1,27 @@
+h1
+{
+	text-align: center;
+	font-size: 60px;
+}
+#main
+{
+	background-color: #c0c0c0;
+	width: 1000px;
+	height: 200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nombre
+{
+	margin-top: 10px;
+	font-size: 30px;
+}
+#boton
+{
+	font-size: 30px;
+}
+#respuesta
+{
+	font-size: 30px;
+}
