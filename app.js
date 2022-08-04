@@ -1,4 +1,3 @@
-
 formulario.addEventListener("submit", validar);
 
 
@@ -7,14 +6,20 @@ function validar(e){
 	nombre = document.querySelector("#nombre").value;
 
 	respuesta = document.getElementById("respuesta");
-	formulario.reset();
+	todo = document.getElementById("todo");
 
 	if (nombre.includes("uan")){
 	respuesta.style.color = "red";
 	respuesta.textContent = 'Nombre NO válido: '+nombre;
+	const image = document.createElement('img');
+	image.src = 'juan.jpg';
+	document.querySelector('body').appendChild(image);
+	modalBackground.style.display = "block";
+	todo.remove();
 }
 else{
 	respuesta.style.color = "black"
 	respuesta.textContent = 'Nombre válido: '+nombre;
+	formulario.reset();
 }
 }

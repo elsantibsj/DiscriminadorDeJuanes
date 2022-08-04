@@ -1,16 +1,18 @@
 #todo
 {
-background-color: white;
-  margin: 1rem;
-  padding: 1rem;
-  text-align: center;
+	width: 600px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+ 	text-align: center;
 }
 
 #title
 {
+	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	font-size: 45px;
-	font-weight: bold;
+	font-weight: 600;
 }
 #main
 {
@@ -23,14 +25,23 @@ background-color: white;
 }
 #nombre
 {
+	font-family: 'Roboto', sans-serif;
 	margin-top: 10px;
 	font-size: 30px;
 }
 #boton
 {
+	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 }
 #respuesta
 {
+	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
+}
+img
+{
+	margin-left: 25%;
+	width: 50vw;
+	height: 50vw;
 }
