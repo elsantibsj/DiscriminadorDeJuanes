@@ -1,5 +1,6 @@
 document.getElementById("juan").style.visibility = "hidden";
 
+const music = document.getElementById("music");
 
 formulario.addEventListener("submit", validar);
 
@@ -16,6 +17,8 @@ function validar(e){
 	respuesta.textContent = 'Nombre NO válido: '+nombre;
 	todo.remove();
 	document.getElementById("juan").style.visibility = "visible";
+	music.volume = 1;
+	music.play();
 
 }
 else if (nombre != ""){
