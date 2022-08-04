@@ -1,3 +1,6 @@
+document.getElementById("juan").style.visibility = "hidden";
+
+
 formulario.addEventListener("submit", validar);
 
 
@@ -11,11 +14,9 @@ function validar(e){
 	if (nombre.includes("uan")){
 	respuesta.style.color = "red";
 	respuesta.textContent = 'Nombre NO válido: '+nombre;
-	var image = document.createElement('img');
-	image.src = 'juan.jpg';
-	document.querySelector('body').appendChild(image);
-	modalBackground.style.display = "block";
 	todo.remove();
+	document.getElementById("juan").style.visibility = "visible";
+
 }
 else if (nombre != ""){
 	respuesta.style.color = "black"
