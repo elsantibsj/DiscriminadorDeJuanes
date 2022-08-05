@@ -22,7 +22,7 @@ function validar(e){
 
 }
 else if (nombre != ""){
-	respuesta.style.color = "black"
+	respuesta.style.color = "white"
 	respuesta.textContent = 'Nombre válido: '+nombre;
 	formulario.reset();
 }
